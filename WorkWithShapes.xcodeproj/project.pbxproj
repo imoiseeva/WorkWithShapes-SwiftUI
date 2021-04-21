@@ -13,6 +13,12 @@
 		5F8A624626258FEC00DA3D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A624526258FEC00DA3D17 /* Assets.xcassets */; };
 		5F8A624926258FEC00DA3D17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A624826258FEC00DA3D17 /* Preview Assets.xcassets */; };
 		5F8A624C26258FEC00DA3D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A624A26258FEC00DA3D17 /* LaunchScreen.storyboard */; };
+		5F8A625526259A3600DA3D17 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A625426259A3600DA3D17 /* ShapesView.swift */; };
+		5F8A625826259AB600DA3D17 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A625726259AB600DA3D17 /* GradientRectangles.swift */; };
+		5F8A625B2625A29000DA3D17 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A625A2625A29000DA3D17 /* PathView.swift */; };
+		5F8A62602625BDBC00DA3D17 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A625F2625BDBC00DA3D17 /* CurvesView.swift */; };
+		5F8A62632625BF5700DA3D17 /* MyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A62622625BF5700DA3D17 /* MyShape.swift */; };
+		5F8A62682625D75A00DA3D17 /* ZebraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A62672625D75A00DA3D17 /* ZebraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5F8A624826258FEC00DA3D17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F8A624B26258FEC00DA3D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F8A624D26258FEC00DA3D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8A625426259A3600DA3D17 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		5F8A625726259AB600DA3D17 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		5F8A625A2625A29000DA3D17 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		5F8A625F2625BDBC00DA3D17 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		5F8A62622625BF5700DA3D17 /* MyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShape.swift; sourceTree = "<group>"; };
+		5F8A62672625D75A00DA3D17 /* ZebraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				5F8A623F26258FEA00DA3D17 /* AppDelegate.swift */,
 				5F8A624126258FEA00DA3D17 /* SceneDelegate.swift */,
 				5F8A624326258FEA00DA3D17 /* ContentView.swift */,
+				5F8A625426259A3600DA3D17 /* ShapesView.swift */,
+				5F8A625726259AB600DA3D17 /* GradientRectangles.swift */,
+				5F8A625A2625A29000DA3D17 /* PathView.swift */,
+				5F8A625F2625BDBC00DA3D17 /* CurvesView.swift */,
+				5F8A62622625BF5700DA3D17 /* MyShape.swift */,
+				5F8A62672625D75A00DA3D17 /* ZebraView.swift */,
 				5F8A624526258FEC00DA3D17 /* Assets.xcassets */,
 				5F8A624A26258FEC00DA3D17 /* LaunchScreen.storyboard */,
 				5F8A624D26258FEC00DA3D17 /* Info.plist */,
@@ -146,8 +164,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F8A624026258FEA00DA3D17 /* AppDelegate.swift in Sources */,
+				5F8A62682625D75A00DA3D17 /* ZebraView.swift in Sources */,
+				5F8A62602625BDBC00DA3D17 /* CurvesView.swift in Sources */,
+				5F8A625826259AB600DA3D17 /* GradientRectangles.swift in Sources */,
+				5F8A625B2625A29000DA3D17 /* PathView.swift in Sources */,
 				5F8A624226258FEA00DA3D17 /* SceneDelegate.swift in Sources */,
+				5F8A625526259A3600DA3D17 /* ShapesView.swift in Sources */,
 				5F8A624426258FEA00DA3D17 /* ContentView.swift in Sources */,
+				5F8A62632625BF5700DA3D17 /* MyShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
